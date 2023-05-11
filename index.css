@@ -1,0 +1,64 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #8b0a0a;
+}
+ul {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+h1{ text-align: center;
+}
+img{
+  float: right;
+  
+}
+.yes{
+  float: left;
+}
+
+.Knapp{
+  text-align: center;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  color: whitesmoke;
+  background-color: black;
+  border-radius: 15px;
+  position: fixed;
+	   left: 46%;
+	   top:50%;
+}
+.button:hover {background-color: #8b0a0a}
+
+.button:active {
+  background-color: #3e8e41;
+ transform: translateY(4px);
+}
+.Wraith {
+  float: left;
+}
